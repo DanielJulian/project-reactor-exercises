@@ -8,7 +8,13 @@ and data streams.
 Reactive programming allows the creation of reactive systems which make use of asynchronous communication & processing.
 These systems define a set of rules for asynchronous stream processing with non-blocking back pressure.
 
-### Fundamental Design Pattern
+### Topics explored
+
+- Blocking(Streams) vs Reactive(Mono and Flux)
+- Error handling
+- Operators to create and chain Fluxes and Monos
+
+### Fundamental Design Pattern in reactive programming
 
 Although reactive programming is not object oriented programming, there is one design pattern from OOP
 that explains the essentials of Reactive Programming: The Observer pattern.
@@ -41,7 +47,4 @@ What things can a Flux or Mono publish?
 - A complete event, where the flux/mono tell the subscribers that no more items will be published.
 - A failure event.
 
-For both a Mono and Flux, after a complete or failure event is sent, nothing else will be sent.
-
-Full
-course: https://www.youtube.com/watch?v=EExlnnq5Grs&list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI&index=2&ab_channel=JavaBrains
+Full course: https://www.youtube.com/watch?v=EExlnnq5Grs&list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI&index=2&ab_channel=JavaBrains
